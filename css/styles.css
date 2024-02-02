@@ -1,23 +1,51 @@
-html, body{
-margin:0px;
-background-color: #308d66;
-color: white;
+html, body {
+    margin: 0px;
+    background-color: #090909;
+    color: white;
 }
 
-.titulo{
-    text-align:center;
-    background-color:black;
+
+.titulo {
+    text-align: center;
+    background-color: black;
     color: white;
-    padding:20px;
+    padding: 20px;
     font-size: 25px;
 }
-.carta {
-  position: relative;
-    width: 150px;
-    left:100px;
-    margin-left: -95;
 
+.carta {
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
 }
-#computadora-cartas, #jugador-cartas{
-    height:220px;
+
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
+}
+.contenedor-cartas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.divCartas {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* styles.css */
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h1 small {
+    font-size: 16px;
+    color: gray;
+}
+.btn{
+    background-color: rgb(255, 255, 255);
+    color: #090909;
 }
